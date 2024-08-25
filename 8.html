@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            color: rgb(179, 179, 180);
+        }
+        .container{
+            display: grid;
+          column-gap: 20px;
+          row-gap: 20px; 
+            justify-content: space-around;
+            align-content: space-around;
+            grid-template-rows: repeat(2,200px);
+            grid-template-columns: repeat(4,1fr);
+        }
+        .purple{
+            background-color: #8D3DAf;
+        }
+        .orange{
+            background-color: #e07c24;
+        }
+        .gray{
+            background-color:#758283;
+        }
+        .pink{
+            background-color: #e03b8b;
+        }
+        .red{
+            background-color: #ff6666;
+        }
+        .sky{
+            background-color: #03c6c7;
+        }
+        .white{
+            background-color: #cad5e2;
+        }
+        .blue{
+            background-color: #35bdd0;
+        }
+        .box{
+            border-radius: 10px;
+            width: 150px;
+            height: 220px;
+          
+        }
+    </style>
+</head>
+<body>
+    <h1>Feeling Fancy</h1>
+    <div class="container">
+        <div class="purple box"></div>
+        <div class="orange box"></div>
+        <div class="gray box"></div>
+        <div class="pink box"></div>
+        <div class="red box"></div>
+        <div class="sky box"></div>
+        <div class="white box"></div>
+        <div class="blue box"></div>
+    </div>
+</body>
+</html>
